@@ -1,2 +1,9 @@
 ---
 message: "This is roles common data"
+wildfly::distribution: 'jboss-eap'
+wildfly::version: '6.4'
+wildfly::install_source: 'http://mywebserver/jboss-eap-6.4.tar.gz'
+wildfly::user: 'jboss-as'
+wildfly::group: 'jboss-as'
+wildfly::dirname: '/opt/jboss-as'
+wildfly::console_log: '/var/log/jboss-as/console.log'
